@@ -32,5 +32,6 @@ jobs:
         with:
           context: .
           file: package/Dockerfile
+          platforms: linux/amd64,linux/arm64
           push: true
           tags: anthonyenr1quez/local-path-provisioner:latest
