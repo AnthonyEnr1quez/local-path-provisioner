@@ -18,3 +18,10 @@ jobs:
         run: ./scripts/build
         shell: bash
       - run: ls bin
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: ls bin
