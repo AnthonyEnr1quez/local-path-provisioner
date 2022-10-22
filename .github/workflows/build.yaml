@@ -17,4 +17,4 @@ jobs:
       - name: Run build script
         run: ./scripts/build
         shell: bash
-      - run: ls
+      - run: ls bin
