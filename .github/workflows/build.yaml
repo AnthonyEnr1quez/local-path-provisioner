@@ -30,6 +30,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: package
+          context: .
+          file: package/Dockerfile
           push: true
           tags: anthonyEnr1quez/local-path-provisioner:latest
