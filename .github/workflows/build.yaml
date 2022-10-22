@@ -33,4 +33,4 @@ jobs:
           context: .
           file: package/Dockerfile
           push: true
-          tags: anthonyEnr1quez/local-path-provisioner:latest
+          tags: anthonyenr1quez/local-path-provisioner:latest
